@@ -41,6 +41,7 @@ Full guide, with what to do if something looks different:
 - "Who should I call first today?" — your queue, with notes from last time
 - "Voicemail. Try her again Thursday at 2." — logs it and sets the follow-up
 - "Find 30 roofing companies in Mesa and add them." — researched businesses, duplicates skipped
+- "What haven't I logged?" — answered calls still waiting on an outcome
 - "What did Dev say about price on Tuesday's call?" — from the recorded call's transcript
 - "Which hours pick up best for me?" — answered from your own call history
 - "Help me set up my dialer." — calling from your phone, Google Voice or inside Current
@@ -64,6 +65,7 @@ Full guide, with what to do if something looks different:
 
 **Calls and numbers**
 - `list_calls` — recent calls, placed and received
+- `get_unlogged_calls` — answered in-app calls that don't have an outcome yet
 - `get_call_transcript` / `transcribe_call` — read a recorded call (transcription bills your own Twilio account)
 - `get_stats` — dials, conversations, connect rate, your goal and streak
 - `run_report` — questions about your own data, such as best hours or area codes
